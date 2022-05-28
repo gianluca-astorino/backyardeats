@@ -163,10 +163,12 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff; }
+  background-color: transparent; 
+}
 
 .hero-carousel .owl-prev {
-  border-right: 1px solid #f7f8f9; }
+  /* border-right: 1px solid #f7f8f9;  */
+}
 
 .hero-carousel .owl-nav {
   display: flex;
@@ -506,3 +508,17 @@ a:hover {
     height: 500px; } }
 
 /*=====  End of RESPONSIVE  ======*/
+
+.gmaps {
+  width: 600px;
+  height: 450px;
+  /* width="600" height="450" */
+}
+
+@media (max-width: 767px) {
+  .gmaps {
+    width: 250px;
+    height: 200px;
+    /* width="600" height="450" */
+  }
+}
